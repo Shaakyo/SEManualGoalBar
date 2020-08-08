@@ -1,0 +1,179 @@
+{
+  
+  "TextFont": {
+      "type": "googleFont",
+      "label": "Select a font:",
+      "value": "Roboto",
+    	"group": "Global Settings"
+    },
+  
+  
+  "Title": {
+    "type": "text",
+    "label": "Title Text",
+    "value": "Manual Goal",
+    "group": "Title"
+  },
+  
+  "TitleColor": {
+    "type": "colorpicker",
+    "label": "Title Color",
+    "value": "#0000FF",
+    "group": "Title"
+  },
+  
+  "TitleSize": {
+    "type": "number",
+    "label": "Title Size",
+    "value": 10,
+    "min": 1,
+    "max": 1000,
+    "step": 1,
+    "group": "Title"
+  },
+  
+  "TitleWeight": {
+    "type": "dropdown",
+    "label": "Width",
+    "value": "Normal",
+    "options": {
+      "Normal": "Normal",
+      "Bold": "Bold"
+    	},
+    "group": "Title"
+    },
+  
+  "TitleStyle": {
+    "type": "dropdown",
+    "label": "Style:",
+    "value": "Normal",
+    "options": {
+      "Normal": "Normal",
+      "Italic": "Italic"
+    	},
+    "group": "Title"
+    },
+  
+  "TitleAlign": {
+    "type": "dropdown",
+    "label": "Alignement:",
+    "value": "Left",
+    "options": {
+      "Left": "Left",
+      "Right": "Right",
+      "Center": "Center"
+    	},
+    "group": "Title"
+    },
+  
+  "GoalBoxColor1": {
+    "type": "colorpicker",
+    "label": "Goal Bar Color",
+    "value": "#0000FF",
+    "group": "GoalBar Box"
+  },
+  
+  "GoalBoxColor2": {
+    "type": "colorpicker",
+    "label": "Goal Bar Color",
+    "value": "#0000FF",
+    "group": "GoalBar Box"
+  },
+  
+  "PercentageGoalAccomplished": {
+    "type": "number",
+    "label": "Percentage Goal Accomplished",
+    "value": 0,
+    "min": 0,
+    "max": 100,
+    "step": 0.01,
+    "group": "GoalBar Box"
+  },
+  
+  "GoalBoxBorderColor": {
+    "type": "colorpicker",
+    "label": "Box Border Color",
+    "value": "#0000FF",
+    "group": "GoalBar Box"
+  },
+  
+   "GoalBoxBorderWidth": {
+    "type": "number",
+    "label": "Border Size",
+    "value": 2,
+    "min": 1,
+    "max": 1000,
+    "step": 1,
+    "group": "GoalBar Box"
+  },
+  
+  "GoalBoxBorderRadius": {
+    "type": "number",
+    "label": "Border Radius",
+    "value": 2,
+    "min": 1,
+    "max": 1000,
+    "step": 1,
+    "group": "GoalBar Box"
+  },
+  
+  "GoalBarTextColor": {
+    "type": "colorpicker",
+    "label": "In Bar Text Color",
+    "value": "#0000FF",
+    "group": "GoalBar Text"
+  },
+  
+  "GoalBarTextCenter": {
+    "type": "text",
+    "label": "Goal Bar Text Center",
+    "value": "Goal",
+    "group": "GoalBar Text"
+  },
+  
+  "GoalBarTextLeft": {
+    "type": "text",
+    "label": "Goal Bar Text Left",
+    "value": "Goal",
+    "group": "GoalBar Text"
+  },
+  
+  "GoalBarTextRight": {
+    "type": "text",
+    "label": "Goal Bar Text Right",
+    "value": "Goal",
+    "group": "GoalBar Text"
+  },
+  
+  "GoalBarTextSize": {
+    "type": "number",
+    "label": "Title Size",
+    "value": 10,
+    "min": 1,
+    "max": 1000,
+    "step": 1,
+    "group": "GoalBar Text"
+  },
+  
+  "GoalBarTextWeight": {
+    "type": "dropdown",
+    "label": "Width",
+    "value": "Normal",
+    "options": {
+      "Normal": "Normal",
+      "Bold": "Bold"
+    	},
+    "group": "GoalBar Text"
+    },
+  
+  "GoalBarTexteStyle": {
+    "type": "dropdown",
+    "label": "Style:",
+    "value": "Normal",
+    "options": {
+      "Normal": "Normal",
+      "Italic": "Italic"
+    	},
+    "group": "GoalBar Text"
+    }
+}
