@@ -1,0 +1,50 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    color: {{fontColor}};
+    font-size: 14px;
+    overflow: hidden;
+}
+.fadeOutClass{
+    animation: fadeOut 1s;
+    animation-delay:{{fadeoutTime}}s;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+.Title{
+  color:{{TitleColor}};
+  font-family:{{TextFont}};
+  font-size:{{TitleSize}}px;
+  font-weight:{{TitleWeight}};
+  font-style:{{TitleStyle}};
+  text-align:{{TitleAlign}};
+  text-shadow:;
+}
+
+.GoalBox{
+  background: linear-gradient(90deg, {{GoalBoxColor1}} {{PercentageGoalAccomplished}}%, {{GoalBoxColor2}} {{PercentageGoalAccomplished}}%);
+  display:flex; 
+  flex-direction:row; 
+  justify-content:space-between;
+  border-style: solid;
+  border-color: {{GoalBoxBorderColor}};
+  border-width: {{GoalBoxBorderWidth}}px;
+  border-radius: {{GoalBoxBorderRadius}}px;
+  
+}
+
+.GoalBoxText{
+  color:{{GoalBarTextColor}};
+  font-family:{{TextFont}};
+  font-size:{{GoalBarTextSize}}px;
+  font-weight:{{GoalBarTextWeight}};
+  font-style:{{GoalBarTextStyle}};
+ 
+    text-shadow:;
+}
